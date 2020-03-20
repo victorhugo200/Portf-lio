@@ -21,7 +21,7 @@ img {
 .header {
     background-color: #ffffff;
     position: fixed;
-    padding: 15px;
+    padding: 3px;
     width: 100%;
 }
 
@@ -45,13 +45,20 @@ img {
     justify-content: center;
     color: black;
     font-size: 1.562em;
+    font-style: italic;
+    text-shadow: 1px 1px #775e5e;
 }
 
 .header__menu {
     display: flex;
-    color: black;
     margin-right: 25px;
     font-size: 1.125em;
+    
+}
+
+.header__menu__a {
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -71,6 +78,21 @@ img {
     color: #ffff;
     font-size: 1.625em;
     padding: 25px;
+    animation: logo 10s;
+}
+
+
+@keyframes logo {
+    from {
+        opacity: 0;
+        transform: translateX(-100deg);
+        
+    }
+    to {
+        opacity: 1;
+        transform: translateX(100deg);
+       
+    }
 }
 
 /* Icones */
@@ -109,4 +131,5 @@ img {
     display: flex;
     justify-content: center;
     width: 40px;
+    animation: logo 8s;
 }
