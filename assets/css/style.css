@@ -14,7 +14,7 @@ img {
 .container {
     max-width: 1024px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* Header */
@@ -145,7 +145,7 @@ img {
 
 /* conhecimentos */
 
-.section {
+.section__conhecimento {
     margin-top: 100px;
 }
 .conhecimentos {
@@ -159,7 +159,7 @@ img {
     padding-bottom: 7px;
 }
 
-.web-design {
+.web__design {
     max-width: 33%;
     display: flex;
     flex-direction: column;
@@ -196,3 +196,182 @@ img {
     text-shadow: 1px 0px black;
     font-size: 1.125em;
 }
+
+
+/* About */
+
+
+.section__about {
+    margin-top: 100px;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    font-size: 1.725em;
+    color: lightgray;
+    text-transform: uppercase;
+    text-shadow: 1px 1px lightgrey;
+    padding: 2px;
+}
+
+.about__span {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    text-shadow: 1px 0px;
+}
+
+
+.about__conteudo__principal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+
+.about__posicao__imagem{
+    display: flex;
+    justify-content: end;
+    max-width: 50%;
+}
+
+
+.about__imagem {
+    width: 55%;
+    padding-left: 80px;
+}
+
+.about__caracteristicas {
+    max-width: 50%;
+}
+
+.about__bloco {
+    margin-bottom: 36px;
+}
+
+.about__descricao {
+    margin-bottom: 25px;
+    color: #4c4a4a;
+}
+
+.about__conhecimento {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-bottom: 12px;
+    text-shadow: 1px 0px;
+  }
+
+.about__porcentagem__photoshop {
+    position: relative;
+    right: 120px;
+  }
+
+.retangulo__photoshop {
+    width: 100%;
+    height: 10px;
+    background-color: #a7a7a73b;
+    border-radius: 6px;
+  }
+
+.retangulo__photoshop__laranja {
+    position: absolute;
+    background-color: #ff6500;
+    width: 28%;
+    border-radius: 25px;
+    height: 10px;
+  
+}
+
+.retangulo__ilustrator {
+    width: 100%;
+    height: 10px;
+    background-color: #a7a7a73b;
+    border-radius: 6px;
+}
+
+.retangulo__ilustrator__laranja {
+    position: absolute;
+    background-color: #ff6500;
+    width: 31%;
+    border-radius: 25px;
+    height: 10px;
+}
+
+.about__porcentagem__ilustrator {
+    position: relative;
+    right: 80px;
+  }
+
+
+.retangulo__web__design {
+    width: 100%;
+    height: 10px;
+    background-color: #a7a7a73b;
+    border-radius: 6px;
+}
+
+.retangulo__web__design__laranja {
+    position: absolute;
+    background-color: #ff6500;
+    width: 25%;
+    border-radius: 25px;
+    height: 10px;
+}
+
+.about__porcentagem__web__design {
+    position: relative;
+    right: 162px;
+  }
+
+
+  .retangulo__web__development {
+    width: 100%;
+    height: 10px;
+    background-color: #a7a7a73b;
+    border-radius: 6px;
+}
+
+.retangulo__web__development__laranja {
+    position: absolute;
+    background-color: #ff6500;
+    width: 35%;
+    border-radius: 25px;
+    height: 10px;
+}
+
+.about__porcentagem__web__development  {
+    position: relative;
+    right: 29px;
+}
+  
+
+.botoes {
+    display: flex;
+}
+
+.botao__hirf{
+    height: 40px;
+    width: 110px;
+    color: #ffff;
+    background-color: #000000d4;
+    text-transform: uppercase;
+    font-size: 0.822em;
+    text-align: center;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.botao__download{
+    height: 40px;
+    width: 110px;
+    color: #ffff;
+    background-color: #000000d4;
+    text-transform: uppercase;
+    font-size: 0.822em;
+    text-align: center;
+    font-style: italic;
+  
+}
+  
