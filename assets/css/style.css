@@ -519,11 +519,12 @@ img {
 
 .fotos__trabalho {
     width: 100%;
-    height: 33%;
-    border: 1px solid;
+    height: 215px;
+    overflow: hidden;
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
 
 .tamanho__fotos1 {
     width: 33%;
@@ -570,14 +571,15 @@ img {
     font-size: 1.25em;
     background: #252525;
     line-height: 1em;
-    max-width: 50%;
+    max-width: 94%;
     color: white;
     font-style: italic;
     font-weight: normal;
     text-align: center;
     padding: 5px 0 10px 0;
-    top: -75px;
+    top: -58px;
     position: relative;
+    border-bottom: 2px solid #ff1500eb;
 }
 .read__conteudo {
     display: flex;
@@ -590,9 +592,13 @@ img {
     margin-bottom: 24px;
     margin-right: 6px;
     font-size: 1.125em;
+    font-style: italic;
 }
 
 .read__descricao {
     margin-top: 8px;
-    font-size: 0.925em
+    font-size: 0.925em;
+    max-width: 80%;
+    line-height: 1.4em;
+    color: #252525eb;
 }
