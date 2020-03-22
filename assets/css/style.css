@@ -14,7 +14,7 @@ img {
 .container {
     max-width: 1024px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Header */
@@ -49,7 +49,7 @@ img {
     text-shadow: 1px 1px #775e5e;
 }
 .logo:hover {
-    color:#66d1f7;
+    color: coral;
 }
 
 .header__menu {
@@ -65,7 +65,7 @@ img {
 }
 
 .header__menu__a:hover {
-    color:#66d1f7;
+    color: coral;
 }
 
 
@@ -264,45 +264,45 @@ img {
     text-shadow: 1px 0px;
   }
 
-.about__porcentagem__photoshop {
+.about__porcentagem__architecture {
     position: relative;
-    right: 120px;
+    right: 50%;
   }
 
-.retangulo__photoshop {
+.retangulo__architecture {
     width: 100%;
     height: 10px;
     background-color: #a7a7a73b;
     border-radius: 6px;
   }
 
-.retangulo__photoshop__laranja {
+.retangulo__architecture__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 28%;
+    width: 18%;
     border-radius: 25px;
     height: 10px;
   
 }
 
-.retangulo__ilustrator {
+.retangulo__agile__methodology {
     width: 100%;
     height: 10px;
     background-color: #a7a7a73b;
     border-radius: 6px;
 }
 
-.retangulo__ilustrator__laranja {
+.retangulo__agile__methodology__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 31%;
+    width: 23%;
     border-radius: 25px;
     height: 10px;
 }
 
-.about__porcentagem__ilustrator {
+.about__porcentagem__agile__methodology {
     position: relative;
-    right: 80px;
+    right: 37%;
   }
 
 
@@ -316,14 +316,14 @@ img {
 .retangulo__web__design__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 25%;
+    width: 28%;
     border-radius: 25px;
     height: 10px;
 }
 
 .about__porcentagem__web__design {
     position: relative;
-    right: 162px;
+    right: 25%;
   }
 
 
@@ -337,14 +337,14 @@ img {
 .retangulo__web__development__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 35%;
+    width: 33%;
     border-radius: 25px;
     height: 10px;
 }
 
 .about__porcentagem__web__development  {
     position: relative;
-    right: 29px;
+    right: 12%;
 }
   
 
@@ -393,7 +393,7 @@ img {
 /* Fundo preto */
 
 .fundo {
-    background-color: #0e0d0de6;
+    background-color:#252525;
     padding: 55px;
 }
 .fundo__posicao {
@@ -519,6 +519,8 @@ img {
 
 .fotos__trabalho {
     width: 100%;
+    height: 33%;
+    border: 1px solid;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -532,4 +534,65 @@ img {
 }
 .tamanho__fotos3 {
     width: 33%;
+}
+
+/* section blog */
+.section__read {
+    margin-top: 65px;
+    background-color: #d3d3d33b;
+}
+.read__titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 0;
+}
+
+.read__more {
+
+    font-size: 1.725em;
+    color: #bfbdbd;
+    text-transform: uppercase;
+    text-shadow: 1px 1px lightgrey;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.blog {
+     
+    text-transform: uppercase;
+    font-size: 1.125em;
+    text-shadow: 1px 0px;
+}
+
+.foto__data {
+    font-size: 1.25em;
+    background: #252525;
+    line-height: 1em;
+    max-width: 50%;
+    color: white;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    top: -75px;
+    position: relative;
+}
+.read__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read__titulo__descricao {
+    position: relative;
+    top: -39px;
+    margin-bottom: 24px;
+    margin-right: 6px;
+    font-size: 1.125em;
+}
+
+.read__descricao {
+    margin-top: 8px;
+    font-size: 0.925em
 }
