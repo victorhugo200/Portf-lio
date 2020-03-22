@@ -22,7 +22,8 @@ img {
     background-color: #ffffff;
     position: fixed;
     padding: 3px;
-    width: 100%;
+    width: 100%;    
+    z-index: 1;
 }
 
 .header__alinhamento {
