@@ -44,11 +44,17 @@ img {
 .logo {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     color: black;
     font-size: 1.562em;
     font-style: italic;
     text-shadow: 1px 1px #775e5e;
 }
+.logo__descricao{
+    font-size: 0.825em;
+
+}
+
 .logo:hover {
     color: coral;
 }
