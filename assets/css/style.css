@@ -145,14 +145,31 @@ img {
     display: flex;
     justify-content: center;
     width: 40px;
-    animation: logo 8s;
+    animation: mouse 1.5s ease-in-out infinite;
 }
+
+@keyframes mouse {
+    0%, 100% { transform: translateY(-15%)}
+    50%   { transform: translateY(15%)}
+  }
 
 /* conhecimentos */
 
 .section__conhecimento {
     margin-top: 100px;
 }
+
+  
+  @keyframes fade-in {
+      0% { 
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 .conhecimentos {
     display: flex;
     justify-content: space-between;
@@ -284,7 +301,7 @@ img {
 .retangulo__architecture__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 18%;
+    width: 50%;
     border-radius: 25px;
     height: 10px;
   
@@ -300,7 +317,7 @@ img {
 .retangulo__agile__methodology__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 23%;
+    width: 63%;
     border-radius: 25px;
     height: 10px;
 }
@@ -321,7 +338,7 @@ img {
 .retangulo__web__design__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 28%;
+    width: 74%;
     border-radius: 25px;
     height: 10px;
 }
@@ -342,7 +359,7 @@ img {
 .retangulo__web__development__laranja {
     position: absolute;
     background-color: #ff6500;
-    width: 33%;
+    width: 88%;
     border-radius: 25px;
     height: 10px;
 }
@@ -571,6 +588,9 @@ img {
     font-size: 1.125em;
     text-shadow: 1px 0px;
 }
+.fotos__posicao__blog {
+    display: flex;
+}
 
 .foto__data {
     font-size: 1.25em;
@@ -798,4 +818,30 @@ img {
     font-weight: 400;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+
+
+/* ANIMAÇÃO */
+
+[data-animacao] {
+    opacity: 0;
+    transition:  .3s;
+}
+
+[data-animacao="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-animacao="right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-animacao="top"]{
+    transform: translate3d(0, -50px, 0);
+}
+
+[data-animacao].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px,0px);
 }
