@@ -14,7 +14,7 @@ img {
 .container {
     max-width: 1024px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+   
 }
 
 /* Header */
@@ -121,8 +121,6 @@ img {
     margin-right: 25px;
     width: 22px;
     height: 22px;
-    /* border-radius: 50%; */
-    /* background: #f4f5f7; */
     overflow: hidden;
     padding: 2px;
     
@@ -602,4 +600,196 @@ img {
     max-width: 80%;
     line-height: 1.4em;
     color: #252525eb;
+}
+
+
+/* Section Get in touch */
+.get {
+    margin-top: 40px;
+}
+.get__container {
+    width: 50%;
+    
+}
+.get__conteudo {
+    display: flex;
+}
+
+.get__titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    padding: 60px 0;
+}
+
+.get__in__touch {
+
+    font-size: 1.725em;
+    color: #bfbdbd;
+    text-transform: uppercase;
+    text-shadow: 1px 1px lightgrey;
+    margin-bottom: 5px;
+}
+
+.get__say {
+     
+    text-transform: uppercase;
+    font-size: 1.125em;
+    text-shadow: 1px 0px;
+}
+
+.get__phone {
+    font-size: 1.125em;
+    color: #ff5200;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.get__phone__number {
+    color: #000000c7;
+    margin-top: 8px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.get__email {
+    font-size: 1.125em;
+    color: #ff5200;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.get__email__description {
+    color: #000000c7;
+    margin-top: 8px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.get__addres {
+    font-size: 1.125em;
+    color: #ff5200;
+    font-style: italic;
+    padding-bottom: 25px;
+}
+
+.get__addres__description {
+    color: #000000c7;
+    margin-top: 8px;
+    font-size: 1em;
+    font-style: italic;
+}
+.get__icones__container {
+    display: flex;
+}
+.get__icones {
+    display: flex;
+    justify-content: center;
+}
+
+
+.get__icones__estrutura {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.get__icones__itens {
+    margin-right: 25px;
+    width: 15px;
+    padding: 2px;
+    
+}
+
+.get__container__input {
+    padding-top: 19%;
+}
+
+.get__name__email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.get__input__email {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.input__email {
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    width: 220px;
+}
+.get__input__name {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+
+}
+.input__name {
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    width: 220px;
+}
+
+.label {
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+.get__subject {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.input__subject {
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.get__message {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.text__message {
+    border: none;
+    border-bottom: 1px solid #9a9a9a;
+    max-width: 100%;
+    max-height: 75px;
+    resize: none;
+}
+
+.get__botao {
+    display: flex;
+    width: 29%;
+    color: white;
+    font-size: 0.925em;
+    background-color:#252525;
+    padding: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* footer */
+
+.footer {
+    padding: 16px;
+    background-color: #ff5200;
+    margin-top: 100px;
+}
+
+.footer__descricao {
+    display: flex;
+    justify-content: center;
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
 }
