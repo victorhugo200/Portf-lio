@@ -24,9 +24,6 @@ const debounce = function(func, wait, immediate) {
 };
 
 
-
-
-
 const target = document.querySelectorAll('[data-animacao]');
 
 const animationClass = 'animate';
@@ -48,7 +45,6 @@ function animeScroll() {
 }
 
 animeScroll();
-
 
 if(target.length){
     
