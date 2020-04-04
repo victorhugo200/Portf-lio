@@ -24,7 +24,6 @@ img {
         /* border: 1px solid red; */
     }
 
-   
 
   
 }
@@ -686,6 +685,12 @@ img {
     display: flex;
     justify-content: center;
 }
+   
+.show {
+    display: block;
+    margin-right: 25px;
+    border-bottom: 14px solid red;
+  }
 
 .fotos__trabalho {
     width: 100%;
