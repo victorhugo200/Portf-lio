@@ -684,12 +684,14 @@ img {
 .fotos {
     display: flex;
     justify-content: center;
+
 }
    
-.show {
-    display: block;
+.fotos.show {
+    display: flex;
     margin-right: 25px;
     border-bottom: 14px solid red;
+    margin-bottom: 25px;
   }
 
 .fotos__trabalho {
